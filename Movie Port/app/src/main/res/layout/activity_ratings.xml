@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewRating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Ratings">
+
+    <LinearLayout
+        android:id="@+id/linearRatings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.tomer.fadingtextview.FadingTextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:background="#FFAB00"
+            android:gravity="center"
+            android:text="@string/click_movie_name_to_find_imdb_details"
+            android:textColor="#7E1919"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:timeout="1500" />
+    </LinearLayout>
+</ScrollView>

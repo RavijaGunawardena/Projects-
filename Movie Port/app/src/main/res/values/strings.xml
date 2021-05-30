@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="register_movie">Register Movie</string>
+    <string name="display_movies">Display Movies</string>
+    <string name="favourites">Favourites</string>
+    <string name="edit_movies">Edit Movies</string>
+    <string name="search">Search</string>
+    <string name="ratings">Ratings</string>
+    <string name="enter_the_title_of_the_movie">Enter the Title of the Movie</string>
+    <string name="enter_the_year_of_the_movie">Enter the Year of the Movie</string>
+    <string name="enter_the_director_of_the_movie">Enter the Director of the Movie</string>
+    <string name="enter_actors_actresses_of_the_movie">Enter Actors/Actresses of the Movie</string>
+    <string name="ratings_of_the_movie">Ratings of the Movie</string>
+    <string name="review_of_the_movie">Review of the Movie</string>
+    <string name="hints"><![CDATA[Year must be Greater than 1895<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="errorDisplayYear"><![CDATA[Year of the Movie must include<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="ratingsHint"><![CDATA[Rating is not in range (1–10)<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="errorDisplayRating"><![CDATA[Rating of the Movie must include<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="errorDisplayName"><![CDATA[Name of the Movie must include<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="errorDisplayDirecor"><![CDATA[Director of the Movie must include<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="errorDisplayActors"><![CDATA[Actors/Actresses of the Movie must include<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="errorDisplayReviews"><![CDATA[Enter some Reviews of the Movie<font color=\'#cc0029\'> *</font>]]></string>
+    <string name="movies_you_watched">Movies You Watched</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="register_your_movie">Register Your Movie</string>
+    <string name="your_favourites_movies">Your Favourites Movies</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="addToFavourites">Add to Favourites</string>
+    <string name="addedToFavourites">Added to Favourites</string>
+    <string name="InYourFavourites">In Your Favourites</string>
+    <string name="noFavourites">No Favourites</string>
+    <string name="noMoviesToDisplay">No Movies To Display</string>
+    <string name="your_movies_list">Your Movies List</string>
+    <string name="search_result">Search Result :</string>
+    <string name="result">Result</string>
+    <string name="noResult">No Results Were Found</string>
+    <string name="Welcome">WELCOME</string>
+    <string name="toastRegistered">Movie Registered Successfully</string>
+    <string name="emptyFields">Please Fill Empty Fields</string>
+    <string name="success">Successfully Add to Favourites</string>
+    <string name="successDelete">Successfully Deleted From Favourites</string>
+    <string name="noData">No IMDB Data To Show</string>
+    <string name="todo">TODO</string>
+    <string name="movie_port">Movie Port</string>
+    <string name="director">Director</string>
+    <string name="year">Year</string>
+    <string name="actor_actresses">Actor/Actresses</string>
+    <string name="reviews">Reviews</string>
+    <string name="click_movie_name_to_find_imdb_details">Click Movie Name To Find IMDB Details</string>
+
+</resources>
