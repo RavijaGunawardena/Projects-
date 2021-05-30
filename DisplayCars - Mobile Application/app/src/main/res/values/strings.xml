@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Displaying Cars</string>
+    <string name="advanceLabel">Advance Level</string>
+    <string name="IdentifyLabel">Identify</string>
+    <string name="hintLabel">Hints</string>
+    <string name="carMakeLabel">Car Make</string>
+    <string name="CarMake"> Identify the Car Make</string>
+    <string name="Hint">Hints</string>
+    <string name="CarImage">Identify the Car Image</string>
+    <string name="AdLevel">Advanced Level</string>
+    <string name="identify">Get an Image</string>
+    <string name="toast_text">"Hello "</string>
+    <string name="randomImage">"GET NAME "</string>
+    <string name="showRandomName">"Press The Button "</string>
+    <string name="todo">TODO</string>
+    <string name="ranButton">Play</string>
+    <string name="textViewRandom">Click The Button</string>
+    <string name="attempts">You have reached maximum number of attempts !</string>
+    <string name="type_your_answer">Type Your Answer</string>
+    <string name="main_menu">Points</string>
+    <string name="play">Play</string>
+    <string name="submit">Submit</string>
+    <string name="answerTextBoxes">Answer</string>
+    <string name="points">Points</string>
+    <string name="buttonTimer">Button</string>
+    <string name="timer">Timer</string>
+    <string name="correct">Correct</string>
+    <string-array name="names">
+        <item>Audi</item>
+        <item>Bugatti</item>
+        <item>Rolls Royce</item>
+        <item>Benz</item>
+        <item>Dodge</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Genesis</item>
+        <item>Hyundai</item>
+        <item>Infinity</item>
+        <item>Jaguar</item>
+        <item>Jeep</item>
+        <item>Lincoln</item>
+        <item>Lotus</item>
+        <item>Maserati</item>
+        <item>Mitsubishi</item>
+        <item>Nikola</item>
+        <item>Nissan</item>
+        <item>Patrol</item>
+        <item>Porsche</item>
+        <item>Rolls Royce</item>
+        <item>Saab</item>
+        <item>Saturn</item>
+        <item>Tesla</item>
+        <item>Toyota</item>
+        <item>Volvo</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="timerChange">TextView</string>
+    <string name="time">Time</string>
+    <string name="type_here">Type Here</string>
+    <string name="main_name">Car    Jeeves</string>
+</resources>

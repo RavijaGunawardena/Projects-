@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carmake"
+    android:verticalScrollbarPosition="left"
+    android:visibility="visible"
+    tools:context=".CarMakeActivity">
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:layout_alignBottom="@+id/imageRavView"
+        android:layout_marginBottom="-475dp"
+        android:alpha="0.75"
+        android:background="#222020" />
+
+    <TextView
+        android:id="@+id/timeTextView5"
+        android:layout_width="177dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        android:alpha="0.75"
+        android:background="#AD081B8A"
+        android:gravity="center"
+        android:text="@string/time"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageRavView"
+        android:layout_width="413dp"
+        android:layout_height="253dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:alpha="0.90"
+        android:background="#222020"
+        android:contentDescription="@string/todo"
+        android:scaleType="center"
+        android:tag="carImgView" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="32dp"
+        android:alpha="0.75"
+        android:background="#AD081B8A"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="398dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="81dp"
+        android:background="#2B2B2B"
+        android:text="@string/identify" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hint"
+    tools:context=".HintActivity">
+
+    <TextView
+        android:id="@+id/timeTextView3"
+        android:layout_width="172dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:alpha="0.75"
+        android:background="#AD081B8A"
+        android:gravity="center"
+        android:text="@string/time"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="172dp"
+        android:alpha="0.80"
+        android:text="@string/submit"
+        app:backgroundTint="#1C517C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hintImageView"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <EditText
+        android:id="@+id/typeLetterTextView"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="176dp"
+        android:alpha="0.75"
+        android:background="@color/white"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hintImageView"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/wordDisplay"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="56dp"
+        android:alpha="0.65"
+        android:background="#A63535"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/hintImageView"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="@+id/hintImageView"
+        app:layout_constraintTop_toBottomOf="@+id/hintImageView" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="410dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="92dp"
+        android:alpha="0.75"
+        android:background="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeTextView3" />
+
+    <ImageView
+        android:id="@+id/hintImageView"
+        android:layout_width="315dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="208dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/audi" />
+
+    <TextView
+        android:id="@+id/hintCorrectAnswerDisplay"
+        android:layout_width="385dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:textColor="#F6B902"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeTextView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
