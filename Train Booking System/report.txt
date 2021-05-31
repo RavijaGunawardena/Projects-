@@ -1,0 +1,3 @@
+Max stay in queue - 13
+Min stay in queue - 0
+Average time spent on queue - 8
